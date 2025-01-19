@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables</title>
+</head>
+<body>
+  <h1>Variables Exercise</h1>
+  <p>5a. Create a script element. Inside the script create a variable called name and save yur name in this variable as a string.</p>
+  <p>5b. Dispaly the message my name: ${name}` in the console('insert the name variable created in the 5a into this message')
+  </p>
+  <p>5c. At a resturant you are order 1coffee ($5), 2 bagels($3 each), and 1 soup($9). Calculate the cost and insert the value in this cost.</p>
+  coffee: 5 + 2 * 3 + 9
+
+ <p>5d. continouing from 5c display cost of food:$${cost}'</p>
+ 
+
+ <p>5e. Let's say the restaurant charges a 10% tax.  Using the 'cost' variable from 5c, calculate the tax </p>
+ <p>
+  5f.  Continuing from  5f, calculate the total (cost + tax), save it n a variable called 'totalCost, and display the message"Total COST: $${totalCost}'
+ </p>
+
+  <p> 5g. Continuing from 5f, calculate the total(cost + tax), save it in a variable called 'totalCost', and display the message 'Total cost:$${totalCost}in the console.</p>
+
+  <p>5h. In the Cart Quantity project , add 2 buttons '+4', and '+5', which increase the quantity by 4 and 5 when you click them . Try using +=</p>
+
+  <p> 5i. Add a button to the cartQuantity add a button 'Remove from cart' which decrease the cart quantity by one,</p>
+  <p>5j. Add 2 buttons '-2' and '-3', which decrease the quantity by 2 and 3.</p>
+  <p> Use the shortcuts in -- and -= in 5i and 5j.</p>
+  <button onclick="
+  cartQuantity += 4;
+  console.log(`cart Quantity: ${cartQuantity}`);
+  
+  ">+4</button>
+  <button onclick="
+  cartQuantity+=5;
+  console.log(`cart Quantity is: ${cartQuantity}`);
+  ">+5</button>
+  <button onclick="
+  // cartQuantity -= 1;
+  cartQuantity --;
+  console.log(`Remove from cart : ${cartQuantity}`);
+  ">Remove from cart</button>
+  <button onclick="
+  cartQuantity -=2;
+  console.log(`cart quantity: ${cartQuantity}`);
+  "> -2
+
+  </button>
+  <button onclick="
+  cartQuantity -=3;
+  console.log(`cart quantity: ${cartQuantity}`);
+  "> -3
+
+  </button>
+
+  <script>
+    // let name = 'Bakht'
+    // console.log(`My name is: ${name}`);
+    // let cost= 5 + (2*3) + 9
+    // console.log(cost);
+    // console.log(`Cost of Food: $${cost}`);
+    // console.log(`Cost of Food: $${cost}`);
+    // let costt= 20;
+    // console.log(`the total cost after tax: ${costt}*0.1`);
+
+    //   const cost = 5 + 2 * 3 + 9;
+    //    console.log(`Cost of food: $${cost}`);
+
+    //   const tax = cost * 0.1;
+    //    console.log(`Tax (10%): $${tax}`);
+
+
+    // const cost = 5 + 2 * 3 + 9;
+    //   console.log(`Cost of food: $${cost}`);
+
+    //   const tax = cost * 0.1;
+    //   console.log(`Tax (10%): $${tax}`);
+
+    //   const totalCost = cost + tax;
+    // console.log(`Total cost: $${totalCost}`);
+
+    let cartQuantity = 0;
+
+    
+
+
+    
+  </script>
+  
+</body>
+</html>
